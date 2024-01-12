@@ -1,0 +1,2 @@
+# QuantumultX
+Self-contained scripts
