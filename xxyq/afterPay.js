@@ -2,11 +2,11 @@
 
 [rewrite_local]
 
-^https?:\/\/fastapi\.ukids\.cn\/uch5\/afterPayVipEnd url script-response-body https://raw.githubusercontent.com/keyding/QuantumultX/main/xxyq/afterPay.js
+^https?:\/\/prod\.ukids\.cn\/uch5\/afterPayVipEnd url script-response-body https://raw.githubusercontent.com/keyding/QuantumultX/main/xxyq/afterPay.js
 
 [mitm] 
 
-hostname = fastapi.ukids.cn
+hostname = prod.ukids.cn
 
 ************************************/
 
