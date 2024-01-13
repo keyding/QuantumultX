@@ -12,7 +12,9 @@ hostname = fastapi.ukids.cn
 
 const body = JSON.parse($response.body)
 
+ody.data.playType = 1
+// body.data.cloudType = 4
 body.data.preview = false
-body.data.previewDur = Math.ceil(Number(body.data.duration))
+body.data.previewDur = null
 
 $done({ body: JSON.stringify(body) })
