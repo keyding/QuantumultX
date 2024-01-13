@@ -12,7 +12,7 @@ hostname = fastapi.ukids.cn
 
 const body = JSON.parse($response.body)
 
-ody.data.playType = 1
+body.data.playType = 1
 // body.data.cloudType = 4
 body.data.preview = false
 body.data.previewDur = null
