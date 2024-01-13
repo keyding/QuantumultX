@@ -14,6 +14,7 @@ const body = JSON.parse($response.body)
 
 body.data.playType = 1
 body.data.preview = false
-body.data.previewDur = Math.ceil(Number(body.data.duration))
+body.data.previewDur = null
+body.data.playAuth = '0123456789'
 
 $done({ body: JSON.stringify(body) })
