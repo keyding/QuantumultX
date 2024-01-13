@@ -13,5 +13,6 @@ hostname = fastapi.ukids.cn
 const body = JSON.parse($response.body)
 
 body.data.preview = false
+body.data.previewDur = Math.ceil(Number(body.data.duration))
 
 $done({ body: JSON.stringify(body) })
